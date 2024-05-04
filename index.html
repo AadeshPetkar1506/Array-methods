@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Methode Array</title>
+</head>
+<body>
+    <script>
+        const Students = ["ketan","Aditi","roshan","sahil"]
+        console.log(Students);
+
+        console.log(Students.length);
+
+        Students.push("sejal","karan");
+        console.log(Students);
+
+        Students.pop();
+        console.log(Students);
+
+        console.log(Students);
+
+        Students.unshift("harsh");
+        console.log(Students);
+
+        Students.shift();
+        console.log(Students);
+
+        const index = Students.indexOf("Aditi");
+        console.log(index);
+
+        Students.reverse();
+        console.log(Students);
+
+        console.log(Students.includes("roshan"));
+        console.log(Students.includes("shruti"));
+
+        console.log(Students.sort());
+        console.log(Students.join("$"));
+        
+        const count = (Students.length);
+        console.log(count);
+
+        Students.splice(2,3);
+        console.log(Students);
+
+        Students.splice(2,2,"shrawni");
+        console.log(Students);
+
+    </script>
+</body>
+</html>
